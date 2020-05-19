@@ -1,5 +1,6 @@
 class Post
   attr_accessor :title :author
+  post = Post.new
+  post.author = Author.new
 end
-post = Post.new
-Post.author = Author.new
+
