@@ -3,4 +3,3 @@ class Post
   post = Post.new
   post.author = Author.new
 end
-
